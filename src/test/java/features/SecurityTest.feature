@@ -10,3 +10,5 @@ Feature: API testing for Security Functions
         "password: "tek_supervisor"
         }
     """
+    When method post
+    Then status 200
